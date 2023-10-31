@@ -93,7 +93,7 @@ export default function Contact() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
-              Numero de telefone
+              Número de telefone
             </label>
             <div className="relative mt-2.5">
               <input
@@ -107,7 +107,7 @@ export default function Contact() {
           </div>
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block text-sm font-semibold leading-6 text-gray-900">
-              Messagem
+              Mensagem
             </label>
             <div className="mt-2.5">
               <textarea
