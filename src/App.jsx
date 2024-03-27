@@ -1,14 +1,18 @@
-import Contact from "./Components/Contact"
-import Footer from "./Components/Footer"
-import Hero from "./Components/Hero"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PrivacyPolicy from "./Components/PrivacyPolicy";
+import { Main } from "./Components/Main";
+
 
 function App() {
   return (
-    <>
-      <Hero/>
-      <Contact/>
-      <Footer/>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={ <Main/>}>
+      </Route>
+      <Route path="privacypolicy" element={<PrivacyPolicy/>}>
+      </Route>
+    </Routes>
+    </BrowserRouter>
   )
 }
 
